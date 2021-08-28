@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="forms.js"></script>
+    <title>Teste Main</title>
+	
+
+</head>
+<body>
+  
+
+    <div class="center">
+    <button type="button" onClick="quest()">Adicionar Teste</button>
+    <button type="button" onClick="onVoltar()">Anterior</button>
+    <button type="button" onClick="onClick()">Próximo</button>
+    Total de acertos: <a id="correta">0</a>
+
+    <p>Próximo: <a id="clicks">1</a></p>   
+   
+    <br>
+<div id="perg"></div> 
+
+<br>
+
+
+<label class="container2">
+<div id="resp1"></div>
+<input type="radio" value="0" name="resposta" id="radio1" />
+<span class="checkmark"></span>	
+</label>
+<label class="container2">
+<div id="resp2"></div>	
+<input type="radio" value="1" name="resposta" id="radio2" />
+<span class="checkmark"></span>	
+</label>		
+<label class="container2">
+<div id="resp3"></div>
+<input type="radio" value="2" name="resposta" id="radio3" />
+<span class="checkmark"></span>	
+</label>
+<label class="container2">
+<div id="resp4"></div>
+<input type="radio" value="3" name="resposta" id="radio4" />
+<span class="checkmark"></span>	
+</label>
+<br>
+<button id="but" onclick="answer()">Verificar Resposta</button>
+<button type="button" onClick="estatus()">Resultado do Final</button>
+<button type="button" onClick="perguntaP()">Teste</button>
+</div>
+
+	
+
+
+</body>
+</html>

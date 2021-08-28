@@ -237,6 +237,10 @@ function shuffle(array) {
           }
   
   }
+
+function testecommit(){
+  return "teste"
+}
   
   
   

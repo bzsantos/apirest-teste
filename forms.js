@@ -241,6 +241,10 @@ function shuffle(array) {
 function testecommit(){
   return "teste"
 }
+
+function testecommit2(){
+  return "teste"
+}
   
   
   
